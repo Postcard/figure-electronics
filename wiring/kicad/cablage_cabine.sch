@@ -272,7 +272,7 @@ $Comp
 L sortie230 U11
 U 1 1 58E76E27
 P 5300 6650
-F 0 "U11" H 5250 6800 60  0000 C CNN
+F 0 "U11" H 5150 6800 60  0000 C CNN
 F 1 "sortie230" H 5300 6400 60  0000 C CNN
 F 2 "" H 5315 6650 60  0001 C CNN
 F 3 "" H 5315 6650 60  0001 C CNN
@@ -283,7 +283,7 @@ $Comp
 L sortie230 U12
 U 1 1 58E76F6F
 P 6000 6650
-F 0 "U12" H 5950 6800 60  0000 C CNN
+F 0 "U12" H 5850 6800 60  0000 C CNN
 F 1 "sortie230" H 6000 6400 60  0000 C CNN
 F 2 "" H 6015 6650 60  0001 C CNN
 F 3 "" H 6015 6650 60  0001 C CNN
@@ -293,12 +293,12 @@ $EndComp
 $Comp
 L BlocSecteur U6
 U 1 1 58E771CC
-P 3800 7350
-F 0 "U6" H 3750 7450 60  0000 C CNN
-F 1 "BlocSecteur" H 3805 7560 31  0000 C CNN
-F 2 "" H 3815 7250 60  0001 C CNN
-F 3 "" H 3815 7250 60  0001 C CNN
-	1    3800 7350
+P 3700 7350
+F 0 "U6" H 3650 7450 60  0000 C CNN
+F 1 "BlocSecteur" H 3705 7560 31  0000 C CNN
+F 2 "" H 3715 7250 60  0001 C CNN
+F 3 "" H 3715 7250 60  0001 C CNN
+	1    3700 7350
 	1    0    0    -1  
 $EndComp
 Entry Wire Line
@@ -324,12 +324,12 @@ T
 $Comp
 L Service230 U9
 U 1 1 58E79C50
-P 4450 7150
-F 0 "U9" H 4425 7050 60  0000 C CNN
-F 1 "Service230" H 4475 6750 60  0000 C CNN
-F 2 "" H 5365 7300 60  0001 C CNN
-F 3 "" H 5365 7300 60  0001 C CNN
-	1    4450 7150
+P 4650 7150
+F 0 "U9" H 4625 7050 60  0000 C CNN
+F 1 "Service230" H 4675 6750 60  0000 C CNN
+F 2 "" H 5565 7300 60  0001 C CNN
+F 3 "" H 5565 7300 60  0001 C CNN
+	1    4650 7150
 	1    0    0    -1  
 $EndComp
 NoConn ~ 2400 6700
@@ -655,65 +655,65 @@ F 3 "" H 1550 1300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 1700 1600 3    39   ~ 0
-CableWifi
+2-CableWifi
 Text Label 1400 1600 3    39   ~ 0
-CableGSM
+1-CableGSM
 Text Label 950  4900 0    39   ~ 0
-USB_HT910E
-Text Label 2000 3550 0    31   ~ 0
-Alim_HT910E
+3-USB_HT910E
+Text Label 2000 3550 0    39   ~ 0
+4-Alim_HT910E
 Text Label 2250 5100 0    39   ~ 0
-Ethernet
+6-Ethernet
 Text Label 2700 5950 3    39   ~ 0
-Master_12V
+7-Master_12V
 Text Label 2700 4650 0    39   ~ 0
-USB_Wifi
+5-USB_Wifi
 Text Label 3150 2550 3    39   ~ 0
-Alim_RPI3
+8-Alim_RPI3
 Text Label 7100 1150 0    39   ~ 0
-Alim_Flash
+11-Alim_Flash
 Text Label 7200 3100 0    39   ~ 0
-Combi_1200D
+12-Combi_1200D
 Text Label 7250 3450 0    39   ~ 0
-BP
+13-BP
 Text Label 5300 4250 0    39   ~ 0
-USB_1200D
+9-USB_1200D
 Text Label 5300 4500 0    39   ~ 0
-USB_Print
+10-USB_Print
 Text Label 7200 5100 0    39   ~ 0
-Alim_Print
+14-Alim_Print
 Text Label 7200 5650 0    39   ~ 0
-Alim_Gâche
+15-Alim_Gâche
 Wire Wire Line
-	2650 7450 3450 7450
+	2650 7450 3350 7450
 Wire Wire Line
-	3450 7450 3500 7400
+	3350 7450 3400 7400
 Wire Wire Line
-	3500 7400 3450 7350
+	3400 7400 3350 7350
 Wire Wire Line
-	3450 7350 3200 7350
+	3350 7350 3200 7350
 Wire Wire Line
 	3200 7350 3150 7300
 Wire Wire Line
 	3150 7300 3150 6250
 Wire Wire Line
-	3450 7250 3500 7200
+	3350 7250 3400 7200
 Wire Wire Line
-	3500 7200 3450 7150
+	3400 7200 3350 7150
 Wire Wire Line
-	3450 7150 3200 7150
+	3350 7150 3200 7150
 Wire Wire Line
 	3200 7150 3200 6250
 Wire Wire Line
-	3450 7050 3500 7000
+	3350 7050 3400 7000
 Wire Wire Line
-	3500 7000 3450 6950
+	3400 7000 3350 6950
 Wire Wire Line
-	3450 6950 3250 6950
+	3350 6950 3250 6950
 Wire Wire Line
 	3250 6950 3250 6250
 Wire Wire Line
-	2450 7250 3450 7250
+	2450 7250 3350 7250
 Wire Wire Line
 	2400 7100 2450 7050
 Wire Wire Line
@@ -721,7 +721,7 @@ Wire Wire Line
 Wire Wire Line
 	2450 7350 2550 7350
 Wire Wire Line
-	2400 7300 2900 7300
+	2900 7300 2400 7300
 Wire Wire Line
 	2550 7350 2650 7450
 Wire Wire Line
@@ -731,22 +731,22 @@ Wire Wire Line
 Wire Wire Line
 	2950 7100 3000 7050
 Wire Wire Line
-	3000 7050 3450 7050
+	3000 7050 3350 7050
 Wire Wire Line
 	2450 7050 2800 7050
 Wire Wire Line
 	2400 7200 2850 7200
 Wire Wire Line
-	4400 6800 4400 6700
+	4600 6600 4600 6800
 Wire Wire Line
-	4450 6800 4450 6700
+	4650 6550 4650 6800
 Wire Wire Line
-	4500 6800 4500 6700
-Text Label 4400 6700 0    39   ~ 0
+	4700 6500 4700 6800
+Text Label 4600 6700 0    39   ~ 0
 T
-Text Label 4450 6700 0    39   ~ 0
+Text Label 4650 6700 0    39   ~ 0
 N
-Text Label 4500 6700 0    39   ~ 0
+Text Label 4700 6700 0    39   ~ 0
 L
 Wire Wire Line
 	5950 6250 5950 6450
@@ -761,39 +761,75 @@ Wire Wire Line
 Wire Wire Line
 	5350 6250 5350 6450
 Wire Wire Line
-	4400 6650 4400 6600
+	2900 6600 4600 6600
 Wire Wire Line
-	4400 6600 3300 6600
+	2850 6550 4650 6550
 Wire Wire Line
-	4450 6650 4450 6550
+	2800 6500 4700 6500
 Wire Wire Line
-	4450 6550 3300 6550
+	2800 7050 2800 6500
 Wire Wire Line
-	4500 6650 4500 6500
+	2850 7200 2850 6550
 Wire Wire Line
-	4500 6500 3300 6500
-Wire Wire Line
-	3100 6500 2800 6500
-Wire Wire Line
-	2800 6500 2800 6800
-Wire Wire Line
-	2850 6800 2850 6550
-Wire Wire Line
-	2850 6550 3100 6550
-Wire Wire Line
-	2900 6800 2900 6600
-Wire Wire Line
-	2900 6600 3100 6600
-Wire Wire Line
-	2800 7050 2800 6900
-Wire Wire Line
-	2850 7200 2850 6900
-Wire Wire Line
-	2900 7300 2900 6900
+	2900 6600 2900 7300
 NoConn ~ 950  5500
 NoConn ~ 950  5550
 NoConn ~ 950  5600
 NoConn ~ 950  5650
 NoConn ~ 950  5700
 NoConn ~ 950  5750
+$Comp
+L Earth_Clean #PWR?
+U 1 1 58ECDAF9
+P 4100 6850
+F 0 "#PWR?" H 4350 6850 50  0001 C CNN
+F 1 "Earth_Clean" H 4400 6700 50  0001 C CNN
+F 2 "" H 4100 6800 50  0001 C CNN
+F 3 "" H 4100 6800 50  0001 C CNN
+	1    4100 6850
+	1    0    0    -1  
+$EndComp
+Text Label 3150 6900 0    39   ~ 0
+L
+Text Label 3200 6900 0    39   ~ 0
+N
+Text Label 3250 6900 0    39   ~ 0
+T
+Wire Notes Line
+	3600 6450 3700 6450
+Wire Notes Line
+	3700 6450 3700 6650
+Wire Notes Line
+	3700 6650 3600 6650
+Wire Notes Line
+	3600 6650 3600 6450
+Wire Notes Line
+	3000 7000 3100 7000
+Wire Notes Line
+	3100 7000 3100 7500
+Wire Notes Line
+	3100 7500 3000 7500
+Wire Notes Line
+	3000 7500 3000 7000
+Wire Notes Line
+	3300 6200 3100 6200
+Wire Notes Line
+	3100 6200 3100 6300
+Wire Notes Line
+	3100 6300 3300 6300
+Wire Notes Line
+	3300 6300 3300 6200
+Text Notes 2900 7600 0    60   ~ 0
+Line 1
+Text Notes 3300 6300 0    60   ~ 0
+Line 2
+Text Notes 3600 6450 0    60   ~ 0
+Line 3
+Wire Wire Line
+	4100 6850 4000 6750
+Wire Wire Line
+	4000 6750 3250 6750
+Connection ~ 3250 6750
+Text Notes 4000 7200 0    60   ~ 0
+Terre\nTôle
 $EndSCHEMATC

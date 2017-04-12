@@ -1,4 +1,4 @@
-update=07/04/2017 18:53:57
+update=12/04/2017 18:38:28
 version=1
 last_client=kicad
 [pcbnew]
@@ -78,3 +78,13 @@ LibName46=nappe
 LibName47=rj45_through
 LibName48=usb_wifi
 LibName49=ant_wifi_gsm
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
