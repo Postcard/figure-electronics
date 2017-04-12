@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Philippe\Desktop\AFFAIRES\FIGURE\Cablage_cabine\cablage_cabine.sch</source>
+    <date>07/04/2017 18:59:59</date>
+    <tool>Eeschema 4.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>cablage_cabine.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U14">
+      <value>1200D</value>
+      <libsource lib="1200d" part="1200D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E661C0</tstamp>
+    </comp>
+    <comp ref="U13">
+      <value>FLASH</value>
+      <libsource lib="flash" part="FLASH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E663DC</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Jack90</value>
+      <libsource lib="jack90" part="Jack90"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E66933</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>USB-µ</value>
+      <libsource lib="usb-µ" part="USB-µ"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E66AB4</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>Poussoir</value>
+      <libsource lib="poussoir" part="Poussoir"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E674C6</tstamp>
+    </comp>
+    <comp ref="U15">
+      <value>Imprimante</value>
+      <libsource lib="imprimante" part="Imprimante"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E67EA1</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>AlimPlug</value>
+      <libsource lib="alimplug" part="AlimPlug"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E68FEE</tstamp>
+    </comp>
+    <comp ref="G1">
+      <value>Gâche12V</value>
+      <libsource lib="gâche12v" part="Gâche12V"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E6A3BC</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>12V@180W</value>
+      <libsource lib="12v@180w" part="12V@180W"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E6B4A5</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>Raspberry_PI3</value>
+      <libsource lib="raspberry_pi3" part="Raspberry_PI3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E6BA4B</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>HT910-E</value>
+      <libsource lib="ht910-e" part="HT910-E"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E75931</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>sortie230</value>
+      <libsource lib="sortie230" part="sortie230"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E76E27</tstamp>
+    </comp>
+    <comp ref="U12">
+      <value>sortie230</value>
+      <libsource lib="sortie230" part="sortie230"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E76F6F</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>BlocSecteur</value>
+      <libsource lib="blocsecteur" part="BlocSecteur"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E771CC</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>Service230</value>
+      <libsource lib="service230" part="Service230"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E79C50</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>Carte-mère</value>
+      <libsource lib="carte-mère" part="Carte-mère"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E84B39</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>Nappe</value>
+      <libsource lib="nappe" part="Nappe"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E8B1D8</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>RJ45_Through</value>
+      <libsource lib="rj45_through" part="RJ45_Through"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E8BF40</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>USB_Wifi</value>
+      <libsource lib="usb_wifi" part="USB_Wifi"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E8D02D</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>ANT_Wifi_GSM</value>
+      <libsource lib="ant_wifi_gsm" part="ANT_Wifi_GSM"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E8E4DD</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="1200d" part="1200D">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">1200D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="flash" type="input"/>
+        <pin num="2" name="D+" type="input"/>
+        <pin num="3" name="D-" type="input"/>
+        <pin num="4" name="Gnd" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="12v@180w" part="12V@180W">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">12V@180W</field>
+      </fields>
+      <pins>
+        <pin num="1" name="L" type="input"/>
+        <pin num="2" name="N" type="input"/>
+        <pin num="3" name="Gnd" type="input"/>
+        <pin num="4" name="Com" type="input"/>
+        <pin num="5" name="Com" type="input"/>
+        <pin num="6" name="V+" type="input"/>
+        <pin num="7" name="V+" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ant_wifi_gsm" part="ANT_Wifi_GSM">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ANT_Wifi_GSM</field>
+      </fields>
+    </libpart>
+    <libpart lib="alimplug" part="AlimPlug">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AlimPlug</field>
+      </fields>
+      <pins>
+        <pin num="1" name="7V4" type="input"/>
+        <pin num="2" name="Gnd" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="blocsecteur" part="BlocSecteur">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BlocSecteur</field>
+      </fields>
+      <pins>
+        <pin num="~" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="carte-mère" part="Carte-mère">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Carte-mère</field>
+      </fields>
+      <pins>
+        <pin num="~" name="7V4" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="flash" part="FLASH">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FLASH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="flash" type="input"/>
+        <pin num="2" name="Gnd" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="gâche12v" part="Gâche12V">
+      <fields>
+        <field name="Reference">G</field>
+        <field name="Value">Gâche12V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ht910-e" part="HT910-E">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HT910-E</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Ant" type="input"/>
+        <pin num="2" name="D+" type="input"/>
+        <pin num="3" name="D-" type="input"/>
+        <pin num="4" name="Gnd" type="input"/>
+        <pin num="5" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="imprimante" part="Imprimante">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Imprimante</field>
+      </fields>
+      <pins>
+        <pin num="1" name="V+" type="input"/>
+        <pin num="2" name="D+" type="input"/>
+        <pin num="3" name="D-" type="input"/>
+        <pin num="4" name="Gnd" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="jack90" part="Jack90">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Jack90</field>
+      </fields>
+      <pins>
+        <pin num="1" name="shutter" type="input"/>
+        <pin num="2" name="Gnd" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="nappe" part="Nappe">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Nappe</field>
+      </fields>
+    </libpart>
+    <libpart lib="poussoir" part="Poussoir">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">Poussoir</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="rj45_through" part="RJ45_Through">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RJ45_Through</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="input"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="raspberry_pi3" part="Raspberry_PI3">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Raspberry_PI3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="V+" type="input"/>
+        <pin num="2" name="D+" type="input"/>
+        <pin num="3" name="D-" type="input"/>
+        <pin num="4" name="Gnd" type="input"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="service230" part="Service230">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Service230</field>
+      </fields>
+      <pins>
+        <pin num="~" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="usb-µ" part="USB-µ">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB-µ</field>
+      </fields>
+      <pins>
+        <pin num="1" name="V+" type="input"/>
+        <pin num="2" name="D+" type="input"/>
+        <pin num="3" name="D-" type="input"/>
+        <pin num="4" name="Gnd" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="usb_wifi" part="USB_Wifi">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">USB_Wifi</field>
+      </fields>
+      <pins>
+        <pin num="1" name="v+" type="input"/>
+        <pin num="2" name="D+" type="input"/>
+        <pin num="3" name="D-" type="input"/>
+        <pin num="4" name="V-" type="input"/>
+        <pin num="~" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="sortie230" part="sortie230">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">sortie230</field>
+      </fields>
+      <pins>
+        <pin num="~" name="~" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="1200d">
+      <uri>C:\Users\Philippe\Desktop\AFFAIRES\FIGURE\Cablage_cabine\1200d.lib</uri>
+    </library>
+    <library logical="flash">
+      <uri>C:\Users\Philippe\Desktop\AFFAIRES\FIGURE\Cablage_cabine\flash.lib</uri>
+    </library>
+    <library logical="jack90">
+      <uri>C:\Users\Philippe\Desktop\AFFAIRES\FIGURE\Cablage_cabine\jack90.lib</uri>
+    </library>
+    <library logical="usb-µ">
+      <uri>C:\Users\Philippe\Desktop\AFFAIRES\FIGURE\Cablage_cabine\usb-µ.lib</uri>
+    </library>
+    <library logical="alimplug">
+      <uri>C:\Users\Philippe\Desktop\AFFAIRES\FIGURE\Cablage_cabine\alimplug.lib</uri>
+    </library>
+    <library logical="poussoir">
+      <uri>C:\Users\Philippe\Desktop\AFFAIRES\FIGURE\Cablage_cabine\poussoir.lib</uri>
+    </library>
+    <library logical="imprimante">
+      <uri>C:\Users\Philippe\Desktop\AFFAIRES\FIGURE\Cablage_cabine\imprimante.lib</uri>
+    </library>
+    <library logical="gâche12v">
+      <uri>C:\Users\Philippe\Desktop\AFFAIRES\FIGURE\Cablage_cabine\gâche12v.lib</uri>
+    </library>
+    <library logical="12v@180w">
+      <uri>C:\Users\Philippe\Desktop\AFFAIRES\FIGURE\Cablage_cabine\12v@180w.lib</uri>
+    </library>
+    <library logical="raspberry_pi3">
+      <uri>C:\Users\Philippe\Desktop\AFFAIRES\FIGURE\Cablage_cabine\raspberry_pi3.lib</uri>
+    </library>
+    <library logical="ht910-e">
+      <uri>C:\Users\Philippe\Desktop\AFFAIRES\FIGURE\Cablage_cabine\ht910-e.lib</uri>
+    </library>
+    <library logical="carte-mère">
+      <uri>C:\Users\Philippe\Desktop\AFFAIRES\FIGURE\Cablage_cabine\carte-mère.lib</uri>
+    </library>
+    <library logical="sortie230">
+      <uri>C:\Users\Philippe\Desktop\AFFAIRES\FIGURE\Cablage_cabine\sortie230.lib</uri>
+    </library>
+    <library logical="blocsecteur">
+      <uri>C:\Users\Philippe\Desktop\AFFAIRES\FIGURE\Cablage_cabine\blocsecteur.lib</uri>
+    </library>
+    <library logical="service230">
+      <uri>C:\Users\Philippe\Desktop\AFFAIRES\FIGURE\Cablage_cabine\service230.lib</uri>
+    </library>
+    <library logical="nappe">
+      <uri>C:\Users\Philippe\Desktop\AFFAIRES\FIGURE\Cablage_cabine\nappe.lib</uri>
+    </library>
+    <library logical="rj45_through">
+      <uri>C:\Users\Philippe\Desktop\AFFAIRES\FIGURE\Cablage_cabine\rj45_through.lib</uri>
+    </library>
+    <library logical="usb_wifi">
+      <uri>C:\Users\Philippe\Desktop\AFFAIRES\FIGURE\Cablage_cabine\usb_wifi.lib</uri>
+    </library>
+    <library logical="ant_wifi_gsm">
+      <uri>C:\Users\Philippe\Desktop\AFFAIRES\FIGURE\Cablage_cabine\ant_wifi_gsm.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="4" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="6" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="8" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="10" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="11" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="12" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="13" name="Net-(U2-Pad5)">
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="18" name="Net-(U5-Pad3)">
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="20" name="Net-(U5-Pad4)">
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="21" name="Net-(U5-Pad2)">
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="22" name="Net-(U5-Pad1)">
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="23" name="Net-(U5-Pad~)">
+      <node ref="U5" pin="~"/>
+    </net>
+    <net code="25" name="Net-(U12-Pad~)">
+      <node ref="U8" pin="~"/>
+    </net>
+    <net code="26" name="Net-(U11-Pad~)">
+      <node ref="U8" pin="~"/>
+    </net>
+    <net code="27" name="Net-(U11-Pad~)">
+      <node ref="U8" pin="~"/>
+      <node ref="U11" pin="~"/>
+    </net>
+    <net code="28" name="Net-(U11-Pad~)">
+      <node ref="U8" pin="~"/>
+      <node ref="U11" pin="~"/>
+    </net>
+    <net code="29" name="Net-(U8-Pad~)">
+      <node ref="U8" pin="~"/>
+    </net>
+    <net code="30" name="Net-(U8-Pad~)">
+      <node ref="U8" pin="~"/>
+    </net>
+    <net code="31" name="Net-(U12-Pad~)">
+      <node ref="U8" pin="~"/>
+      <node ref="U12" pin="~"/>
+    </net>
+    <net code="32" name="Net-(U8-Pad~)">
+      <node ref="U8" pin="~"/>
+    </net>
+    <net code="33" name="Net-(U8-Pad~)">
+      <node ref="U8" pin="~"/>
+    </net>
+    <net code="34" name="Net-(U8-Pad~)">
+      <node ref="U8" pin="~"/>
+    </net>
+    <net code="35" name="Net-(U8-Pad~)">
+      <node ref="U8" pin="~"/>
+    </net>
+    <net code="36" name="Net-(U8-Pad~)">
+      <node ref="U8" pin="~"/>
+    </net>
+    <net code="37" name="Net-(U8-Pad~)">
+      <node ref="U8" pin="~"/>
+    </net>
+    <net code="38" name="Net-(U8-Pad~)">
+      <node ref="U8" pin="~"/>
+    </net>
+    <net code="39" name="Net-(U8-Pad~)">
+      <node ref="U8" pin="~"/>
+    </net>
+    <net code="40" name="Net-(U8-Pad~)">
+      <node ref="U8" pin="~"/>
+    </net>
+    <net code="45" name="Net-(U8-Pad~)">
+      <node ref="U8" pin="~"/>
+    </net>
+    <net code="48" name="Net-(U12-Pad~)">
+      <node ref="U12" pin="~"/>
+      <node ref="U8" pin="~"/>
+    </net>
+    <net code="49" name="/L">
+      <node ref="U8" pin="~"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="51" name="/N">
+      <node ref="U6" pin="~"/>
+      <node ref="U8" pin="~"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U9" pin="~"/>
+    </net>
+    <net code="52" name="/T">
+      <node ref="U6" pin="~"/>
+      <node ref="U8" pin="~"/>
+      <node ref="U4" pin="3"/>
+      <node ref="U9" pin="~"/>
+    </net>
+    <net code="72" name="Net-(U2-Pad2)">
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="73" name="Net-(U2-Pad1)">
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="74" name="Net-(U8-Pad~)">
+      <node ref="U8" pin="~"/>
+    </net>
+    <net code="78" name="Net-(J3-Pad2)">
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="79" name="Net-(J3-Pad1)">
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="80" name="Net-(J2-Pad4)">
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="81" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="82" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="83" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="84" name="Net-(J2-Pad4)">
+      <node ref="J2" pin="4"/>
+      <node ref="J2" pin="4"/>
+      <node ref="U14" pin="4"/>
+    </net>
+    <net code="85" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3"/>
+      <node ref="J2" pin="3"/>
+      <node ref="U14" pin="3"/>
+    </net>
+    <net code="86" name="Net-(J2-Pad2)">
+      <node ref="U14" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="87" name="Net-(J2-Pad1)">
+      <node ref="U14" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="88" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+      <node ref="U14" pin="2"/>
+    </net>
+    <net code="89" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="U14" pin="1"/>
+    </net>
+    <net code="90" name="Net-(U13-Pad2)">
+      <node ref="U14" pin="2"/>
+    </net>
+    <net code="91" name="Net-(U13-Pad1)">
+      <node ref="U14" pin="1"/>
+    </net>
+    <net code="92" name="Net-(U15-Pad4)">
+      <node ref="U15" pin="4"/>
+    </net>
+    <net code="93" name="Net-(U4-Pad6)">
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="94" name="Net-(U7-Pad2)">
+      <node ref="U7" pin="2"/>
+    </net>
+    <net code="95" name="Net-(U7-Pad1)">
+      <node ref="U7" pin="1"/>
+    </net>
+    <net code="96" name="Net-(U7-Pad1)">
+      <node ref="U7" pin="1"/>
+    </net>
+    <net code="97" name="Net-(U7-Pad1)">
+      <node ref="U7" pin="1"/>
+    </net>
+    <net code="98" name="Net-(U7-Pad1)">
+      <node ref="U7" pin="1"/>
+    </net>
+    <net code="99" name="Net-(U7-Pad1)">
+      <node ref="U7" pin="1"/>
+    </net>
+    <net code="100" name="Net-(U4-Pad7)">
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="101" name="Net-(U15-Pad3)">
+      <node ref="U15" pin="3"/>
+    </net>
+    <net code="102" name="Net-(U4-Pad5)">
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="103" name="Net-(U4-Pad4)">
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="104" name="Net-(G1-Pad2)">
+      <node ref="G1" pin="2"/>
+    </net>
+    <net code="105" name="Net-(G1-Pad1)">
+      <node ref="G1" pin="1"/>
+    </net>
+    <net code="106" name="Net-(U13-Pad2)">
+      <node ref="U13" pin="2"/>
+    </net>
+    <net code="107" name="Net-(U13-Pad1)">
+      <node ref="U13" pin="1"/>
+    </net>
+    <net code="109" name="Net-(U15-Pad2)">
+      <node ref="U15" pin="2"/>
+    </net>
+    <net code="111" name="Net-(U15-Pad1)">
+      <node ref="U15" pin="1"/>
+    </net>
+    <net code="112" name="Net-(SW1-Pad2)">
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="113" name="Net-(SW1-Pad1)">
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="114" name="Net-(U7-Pad2)">
+      <node ref="U7" pin="2"/>
+    </net>
+    <net code="115" name="Net-(U7-Pad4)">
+      <node ref="U7" pin="4"/>
+    </net>
+    <net code="116" name="Net-(U7-Pad3)">
+      <node ref="U7" pin="3"/>
+    </net>
+    <net code="117" name="Net-(U7-Pad2)">
+      <node ref="U7" pin="2"/>
+    </net>
+    <net code="118" name="Net-(U7-Pad6)">
+      <node ref="U7" pin="6"/>
+    </net>
+    <net code="119" name="Net-(U7-Pad5)">
+      <node ref="U7" pin="5"/>
+    </net>
+    <net code="120" name="Net-(U7-Pad4)">
+      <node ref="U7" pin="4"/>
+    </net>
+    <net code="121" name="Net-(U7-Pad3)">
+      <node ref="U7" pin="3"/>
+    </net>
+    <net code="122" name="Net-(U7-Pad2)">
+      <node ref="U7" pin="2"/>
+    </net>
+    <net code="123" name="Net-(U8-Pad~)">
+      <node ref="U8" pin="~"/>
+    </net>
+    <net code="124" name="Net-(U8-Pad~)">
+      <node ref="U8" pin="~"/>
+    </net>
+    <net code="125" name="Net-(U8-Pad~)">
+      <node ref="U8" pin="~"/>
+    </net>
+    <net code="126" name="Net-(U8-Pad~)">
+      <node ref="U8" pin="~"/>
+    </net>
+    <net code="127" name="Net-(U7-Pad4)">
+      <node ref="U7" pin="4"/>
+    </net>
+    <net code="128" name="Net-(U7-Pad3)">
+      <node ref="U7" pin="3"/>
+    </net>
+    <net code="129" name="Net-(U7-Pad4)">
+      <node ref="U7" pin="4"/>
+    </net>
+    <net code="130" name="Net-(U7-Pad3)">
+      <node ref="U7" pin="3"/>
+    </net>
+    <net code="131" name="Net-(U2-Pad1)">
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="132" name="Net-(U2-Pad1)">
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="133" name="Net-(U2-Pad2)">
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="134" name="Net-(U7-Pad2)">
+      <node ref="U7" pin="2"/>
+    </net>
+    <net code="135" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="136" name="Net-(U2-Pad3)">
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="137" name="Net-(U2-Pad2)">
+      <node ref="U2" pin="2"/>
+    </net>
+  </nets>
+</export>

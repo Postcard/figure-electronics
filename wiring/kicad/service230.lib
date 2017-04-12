@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# Service230
+#
+DEF Service230 U 0 40 Y Y 1 F N
+F0 "U" -25 -100 60 H V C CNN
+F1 "Service230" 25 -400 60 H V C CNN
+F2 "" 915 150 60 H I C CNN
+F3 "" 915 150 60 H I C CNN
+DRAW
+C -250 -300 25 0 1 0 N
+C -250 200 25 0 1 0 N
+C 0 -50 200 0 1 0 N
+C 0 -50 250 0 1 0 N
+C 0 50 35 0 1 0 F
+C 250 -300 25 0 1 0 N
+C 250 200 25 0 1 0 N
+S -300 250 300 -350 0 1 0 N
+S -150 -50 -125 -125 0 1 0 F
+S 125 -50 150 -125 0 1 0 F
+X ~ ~ -50 350 100 D 31 31 1 1 I
+X ~ ~ 0 350 100 D 31 31 1 1 I
+X ~ ~ 50 350 100 D 31 31 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

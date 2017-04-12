@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# Poussoir
+#
+DEF Poussoir SW 0 40 Y Y 1 F N
+F0 "SW" -50 -150 60 H V C CNN
+F1 "Poussoir" 0 120 20 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+A -100 0 180 337 -337 0 1 0 N 50 100 50 -100
+A 100 0 71 450 -450 0 1 0 N 150 50 150 -50
+S -50 100 50 -100 0 1 0 f
+P 3 0 1 0 -50 -50 0 -50 0 -20 N
+P 3 0 1 0 -50 50 0 50 0 40 N
+P 3 0 1 0 0 40 0 20 30 -20 N
+P 4 0 1 0 150 50 50 50 50 -50 150 -50 F
+X ~ 1 -150 50 100 R 31 31 1 1 I
+X ~ 2 -150 -50 100 R 31 31 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

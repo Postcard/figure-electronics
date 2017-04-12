@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# USB_Wifi
+#
+DEF USB_Wifi U 0 40 Y Y 1 F N
+F0 "U" -50 50 60 H V C CNN
+F1 "USB_Wifi" -25 200 31 V V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+C -25 375 25 0 1 0 F
+C -25 375 56 0 1 0 f
+S -150 350 100 -100 0 1 0 f
+X v+ 1 -100 -300 200 U 31 31 1 1 I
+X D+ 2 -50 -300 200 U 31 31 1 1 I
+X D- 3 0 -300 200 U 31 31 1 1 I
+X V- 4 50 -300 200 U 31 31 1 1 I
+X ~ ~ -50 600 200 D 31 31 1 1 I
+X ~ ~ 0 600 200 D 31 31 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
