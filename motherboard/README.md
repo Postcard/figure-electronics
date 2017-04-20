@@ -1,1 +1,0 @@
-* [Nomenclature](https://docs.google.com/spreadsheets/d/1p5C5kdDc0IV1wOAVSdQMcBeEWhr3lK4UYIykDrwZ5oo)

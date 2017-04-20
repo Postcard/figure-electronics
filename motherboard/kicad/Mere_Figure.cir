@@ -1,0 +1,149 @@
+* D:\MyBookLive.D\SCORVITECH\Documents SCORVITECH\RAPPORTS\Figure\carte mere -V2\KICAD-V2\Mere_Figure\Mere_Figure.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 30/03/2017 18:06:21
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+P101  /Master-12V GND Master-12V		
+P107  /Raspberry-PI3/Shut-Canon GND 2Pts-shutter		
+P108  /Raspberry-PI3/Entrée-BP GND Bouton Poussoir		
+P106  /Alim6V5-5A/6V5Flash GND 2Pts-Flash		
+P110  /Master-12V Net-_D101-Pad2_ GACHE		
+P111  /Alim24-V2A5/Print24V GND 24V-PRINT		
+D101  /Master-12V Net-_D101-Pad2_ BAS16		
+Q101  /Raspberry-PI3/Gache GND Net-_D101-Pad2_ Q_NMOS_GSD		
+R101  /Raspberry-PI3/Gache GND 1Meg		
+P104  /Puissance/Com2 /Puissance/Repos2 /Puissance/Travail2 Secteur		
+P103  /Puissance/Com1 /Puissance/Repos1 /Puissance/Travail1 Secteur		
+P105  /7V4-2A/7V4 GND 2Pts-CANON 1200D		
+P109  /Master-12V GND HT910-E		
+P102  /230Detect/Phase-line /230Detect/Neutre-line detection-230V		
+* Sheet Name: /Alim5V-2A5/
+C201  /Master-12V GND 22u 2mo		
+R209  /Alim5V-2A5/5VRpi Net-_R209-Pad2_ 100k		
+C208  Net-_C208-Pad1_ GND 620p		
+C209  /Alim5V-2A5/5VRpi Net-_C209-Pad2_ 6p10 25v		
+R210  Net-_C209-Pad2_ /Alim5V-2A5/5VRpi 523k		
+R211  GND Net-_C209-Pad2_ 100k		
+C210  /Alim5V-2A5/5VRpi GND 47uF 3mo		
+U202  Net-_C207-Pad1_ Net-_C207-Pad1_ GND /Alim5V-2A5/5VRpi /Alim5V-2A5/5VRpi Net-_C209-Pad2_ Net-_R209-Pad2_ Net-_C208-Pad1_ GND TPS82130		
+U201  Net-_R203-Pad1_ Net-_C202-Pad1_ Net-_R201-Pad1_ LM317_SOT223		
+R203  Net-_R203-Pad1_ Net-_C202-Pad1_ 523k		
+R204  GND Net-_R203-Pad1_ 523k		
+C202  Net-_C202-Pad1_ GND 47uF 3mo		
+C203  Net-_C202-Pad1_ Net-_C203-Pad2_ 10F		
+C204  Net-_C203-Pad2_ Net-_C204-Pad2_ 10F		
+C205  Net-_C204-Pad2_ Net-_C205-Pad2_ 10F		
+C206  Net-_C205-Pad2_ GND 10F		
+R205  Net-_C203-Pad2_ Net-_C202-Pad1_ 10k		
+R206  Net-_C204-Pad2_ Net-_C203-Pad2_ 10k		
+R207  Net-_C205-Pad2_ Net-_C204-Pad2_ 10k		
+R208  GND Net-_C205-Pad2_ 10k		
+D201  Net-_C207-Pad1_ Net-_D201-Pad2_ D_ALT		
+D202  Net-_C207-Pad1_ Net-_C202-Pad1_ D_ALT		
+C207  Net-_C207-Pad1_ GND 47uF 3mo		
+R202  Net-_D201-Pad2_ /Master-12V 00		
+R201  Net-_R201-Pad1_ /Master-12V 00		
+* Sheet Name: /Alim6V5-5A/
+Q301  /Alim6V5-5A/ShdnFlash GND /Alim6V5-5A/Enable Q_NMOS_GSD		
+R305  /Alim6V5-5A/ShdnFlash GND 1Meg		
+C306  Net-_C306-Pad1_ GND 51p		
+R306  Net-_C306-Pad1_ Net-_C304-Pad1_ 3k92		
+C304  Net-_C304-Pad1_ GND 9n1		
+C303  Net-_C303-Pad1_ GND 43p		
+C302  Net-_C301-Pad1_ GND 4u7		
+R308  Net-_C308-Pad2_ GND 10k		
+R307  /Alim6V5-5A/6V5Flash Net-_C308-Pad2_ 97k6		
+C305  Net-_C305-Pad1_ Net-_C305-Pad2_ 100n		
+L301  Net-_C305-Pad1_ /Alim6V5-5A/6V5Flash 2u7 12mo		
+C309  /Alim6V5-5A/6V5Flash GND 22u 10v		
+U301  Net-_R304-Pad1_ GND GND Net-_C301-Pad1_ Net-_C301-Pad1_ Net-_C303-Pad1_ Net-_C308-Pad2_ Net-_C306-Pad1_ Net-_C307-Pad1_ /Alim6V5-5A/Enable Net-_C305-Pad1_ Net-_C305-Pad1_ Net-_C305-Pad2_ ? GND TPS54622		
+R303  /Alim6V5-5A/Enable GND 37k		
+R302  Net-_C303-Pad1_ /Alim6V5-5A/Enable 105k		
+C301  Net-_C301-Pad1_ GND 22u		
+R304  Net-_R304-Pad1_ GND 53k6		
+C308  /Alim6V5-5A/6V5Flash Net-_C308-Pad2_ 22p		
+C307  Net-_C307-Pad1_ GND 2n7		
+R301  Net-_C301-Pad1_ /Master-12V 00		
+* Sheet Name: /Alim24-V2A5/
+C404  Net-_C403-Pad1_ Net-_C404-Pad2_ 27n		
+C403  Net-_C403-Pad1_ GND 1n5		
+R405  Net-_C405-Pad1_ GND 8mo-1W		
+C406  /Alim24-V2A5/Print24V GND 82u-20mo		
+C408  /Alim24-V2A5/Print24V GND 100n 50v		
+R406  /Alim24-V2A5/Print24V Net-_R406-Pad2_ 18k2		
+R407  Net-_R406-Pad2_ GND 1k		
+L401  Net-_C401-Pad1_ Net-_D401-Pad1_ SRP1270-100M		
+D401  Net-_D401-Pad1_ Net-_D401-Pad1_ /Alim24-V2A5/Print24V MBRD835LT4G		
+Q401  Net-_D401-Pad1_ Net-_Q401-PadG_ Net-_C405-Pad1_ CSD17579Q3A		
+R404  Net-_R404-Pad1_ Net-_C405-Pad1_ 100		
+C405  Net-_C405-Pad1_ GND 10n		
+R402  Net-_C404-Pad2_ GND 100		
+C402  Net-_C401-Pad1_ GND 100n		
+C401  Net-_C401-Pad1_ GND 47u 2mo		
+R403  Net-_R403-Pad1_ GND 100		
+C407  /Alim24-V2A5/Print24V GND 82u-20mo		
+R401  Net-_C401-Pad1_ /Master-12V 00		
+U401  Net-_R404-Pad1_ Net-_C403-Pad1_ Net-_R406-Pad2_ GND GND Net-_Q401-PadG_ Net-_R403-Pad1_ Net-_C401-Pad1_ LM3488		
+* Sheet Name: /Raspberry-PI3/
+U501  ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? RaspPi3		
+U502  +3V3 Net-_C501-Pad2_ /Raspberry-PI3/SDA ? /Raspberry-PI3/SCL GND /Raspberry-PI3/BP ? GND ? ? ? ? GND ? ? ? ? ? GND ? ? ? ? GND ? ? ? /Raspberry-PI3/Shutter GND /Raspberry-PI3/230V1 /Raspberry-PI3/Gache /Raspberry-PI3/RST GND /230Detect/Detect-Line /Raspberry-PI3/230V2 /Alim6V5-5A/ShdnFlash ? GND ? Con_RaspPi3		
+U503  +3V3 Net-_C502-Pad1_ Net-_C503-Pad2_ GND /Raspberry-PI3/RST /Raspberry-PI3/SDA /Raspberry-PI3/SCL GND DS1302		
+R504  +3V3 /Raspberry-PI3/SCL 100k		
+R505  +3V3 /Raspberry-PI3/SDA 100k		
+R506  +3V3 /Raspberry-PI3/RST 100k		
+BT501  GND Net-_BT501-Pad2_ 3V-Lit		
+C504  Net-_BT501-Pad2_ +3V3 1uF		
+Y501  Net-_C502-Pad1_ Net-_C503-Pad2_ 32Khz		
+C503  GND Net-_C503-Pad2_ 6p		
+C502  Net-_C502-Pad1_ GND 6p		
+Q501  /Raspberry-PI3/Shutter GND /Raspberry-PI3/Shut-Canon Q_NMOS_GSD		
+R503  /Raspberry-PI3/Shutter GND 1Meg		
+R502  /Raspberry-PI3/Entrée-BP /Raspberry-PI3/BP 300R		
+D501  /Raspberry-PI3/BP GND Zener-3V3		
+P501  /Alim5V-2A5/5VRpi GND alim		
+C501  GND Net-_C501-Pad2_ 1u		
+R501  Net-_C501-Pad2_ /230Detect/Detect-Line 47k		
+* Sheet Name: /7V4-2A/
+C606  Net-_C606-Pad1_ GND 110p		
+R605  Net-_C606-Pad1_ Net-_C604-Pad1_ 2k26		
+C604  Net-_C604-Pad1_ GND 56n		
+C603  Net-_C603-Pad1_ GND 43p		
+C602  Net-_C601-Pad1_ GND 4u7		
+R607  Net-_C608-Pad2_ GND 10k		
+R606  /7V4-2A/7V4 Net-_C608-Pad2_ 113k		
+C605  Net-_C605-Pad1_ Net-_C605-Pad2_ 100n		
+L601  Net-_C605-Pad1_ /7V4-2A/7V4 6u8 40mo		
+C609  /7V4-2A/7V4 GND 22u 10v		
+U601  Net-_R604-Pad1_ GND GND Net-_C601-Pad1_ Net-_C601-Pad1_ Net-_C603-Pad1_ Net-_C608-Pad2_ Net-_C606-Pad1_ Net-_C607-Pad1_ /7V4-2A/Enable Net-_C605-Pad1_ Net-_C605-Pad1_ Net-_C605-Pad2_ ? GND TPS54622		
+R603  /7V4-2A/Enable GND 37k		
+R602  Net-_C603-Pad1_ /7V4-2A/Enable 105k		
+C601  Net-_C601-Pad1_ GND 22u		
+R604  Net-_R604-Pad1_ GND 53k6		
+C608  /7V4-2A/7V4 Net-_C608-Pad2_ 22p		
+C607  Net-_C607-Pad1_ GND 2n7		
+R601  Net-_C601-Pad1_ /Master-12V 00		
+* Sheet Name: /Puissance/
+Q702  /Raspberry-PI3/230V1 GND Net-_D702-Pad2_ Q_NMOS_GSD		
+U702  /Puissance/Com1 relais_1RT		
+D702  /Master-12V Net-_D702-Pad2_ 1N9001		
+R702  /Raspberry-PI3/230V1 GND 1Meg		
+C702  /Master-12V GND 10u		
+Q701  /Raspberry-PI3/230V2 GND Net-_D701-Pad2_ Q_NMOS_GSD		
+U701  /Puissance/Com2 relais_1RT		
+D701  /Master-12V Net-_D701-Pad2_ 1N9001		
+R701  /Raspberry-PI3/230V2 GND 1Meg		
+C701  /Master-12V GND 10u		
+* Sheet Name: /230Detect/
+R803  Net-_C801-Pad1_ Net-_C801-Pad2_ 100k-1W		
+C802  Net-_C801-Pad1_ Net-_C802-Pad2_ 100n		
+C801  Net-_C801-Pad1_ Net-_C801-Pad2_ 33n-X2-300V		
+D801  Net-_C801-Pad1_ Net-_C802-Pad2_ 1N4001		
+C803  /230Detect/Detect-Line GND 10u-5V		
+R801  Net-_C801-Pad2_ /230Detect/Phase-line 00		
+R802  Net-_C802-Pad2_ /230Detect/Neutre-line 00		
+U801  Net-_C801-Pad1_ Net-_C802-Pad2_ GND /230Detect/Detect-Line TCLT1000		
+
+.end

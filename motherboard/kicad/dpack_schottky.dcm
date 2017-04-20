@@ -1,8 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP DPack_Schottky
-D Schottky diode
-K diode Schottky
-$ENDCMP
-#
-#End Doc Library

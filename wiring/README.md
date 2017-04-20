@@ -1,2 +1,0 @@
-* [Schéma initial](https://docs.google.com/drawings/d/1nLp9ebyIJ-2Dx40ydM1DXowPOz8YC40HViaFykt4cPc/edit?usp=sharing)
-* [Plan de câblage bretelles](https://docs.google.com/spreadsheets/d/1DkSm1R7IsZvgUYEsoeM1u2r9To6BaUNAnFRaQREWYn4/edit?usp=sharing)

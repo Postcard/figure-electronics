@@ -1,8 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP CSD17579Q3A
-D Transistor N-MOSFETwith substrate diode (general)
-K NMOS n-mos n-mosfet transistor
-$ENDCMP
-#
-#End Doc Library
